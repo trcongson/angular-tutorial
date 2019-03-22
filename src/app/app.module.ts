@@ -8,13 +8,15 @@ import { AngularOverviewFontSizeEditorComponent } from './angular-overview-font-
 import { AngularOverviewViewPetComponent } from './angular-overview-view-pet/angular-overview-view-pet.component';
 import { AngularOverviewCalculatorComponent } from './angular-overview-calculator/angular-overview-calculator.component';
 import { from } from 'rxjs';
+import { AngularComponentInputNameCardComponent } from './angular-component-input-name-card/angular-component-input-name-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AngularOverviewFontSizeEditorComponent,
     AngularOverviewViewPetComponent,
-    AngularOverviewCalculatorComponent
+    AngularOverviewCalculatorComponent,
+    AngularComponentInputNameCardComponent
   ],
   imports: [
     BrowserModule,
