@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-angular-component-input-person',
@@ -7,11 +7,15 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class AngularComponentInputPersonComponent implements OnInit {
 
-@Input() name: String;
+@Input() name: string;
 @Input() age: Number;
+@Output() removePerson = new EventEmitter<string>();
   constructor() { }
 
   ngOnInit() {
   }
 
+  removeByClick() {
+    this.removePerson.emit(this.name);
+  }
 }

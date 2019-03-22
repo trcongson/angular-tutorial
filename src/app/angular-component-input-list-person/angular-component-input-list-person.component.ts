@@ -16,5 +16,8 @@ export class AngularComponentInputListPersonComponent implements OnInit {
 
   ngOnInit() {
   }
-
+removeByName(name: string) {
+  const index = this.arrPerson.findIndex(e => e.name === name);
+  this.arrPerson.splice(index, 1);
+}
 }
