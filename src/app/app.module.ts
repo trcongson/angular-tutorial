@@ -12,6 +12,7 @@ import { AngularComponentInputNameCardComponent } from './angular-component-inpu
 import { AngularComponentInputProgressBarComponent } from './angular-component-input-progress-bar/angular-component-input-progress-bar.component';
 import { AngularComponentInputPersonComponent } from './angular-component-input-person/angular-component-input-person.component';
 import { AngularComponentInputListPersonComponent } from './angular-component-input-list-person/angular-component-input-list-person.component';
+import { AngularComponentInputRatingBarComponent } from './angular-component-input-rating-bar/angular-component-input-rating-bar.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { AngularComponentInputListPersonComponent } from './angular-component-in
     AngularComponentInputNameCardComponent,
     AngularComponentInputProgressBarComponent,
     AngularComponentInputPersonComponent,
-    AngularComponentInputListPersonComponent
+    AngularComponentInputListPersonComponent,
+    AngularComponentInputRatingBarComponent
   ],
   imports: [
     BrowserModule,
