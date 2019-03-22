@@ -11,6 +11,7 @@ import { from } from 'rxjs';
 import { AngularComponentInputNameCardComponent } from './angular-component-input-name-card/angular-component-input-name-card.component';
 import { AngularComponentInputProgressBarComponent } from './angular-component-input-progress-bar/angular-component-input-progress-bar.component';
 import { AngularComponentInputPersonComponent } from './angular-component-input-person/angular-component-input-person.component';
+import { AngularComponentInputListPersonComponent } from './angular-component-input-list-person/angular-component-input-list-person.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { AngularComponentInputPersonComponent } from './angular-component-input-
     AngularOverviewCalculatorComponent,
     AngularComponentInputNameCardComponent,
     AngularComponentInputProgressBarComponent,
-    AngularComponentInputPersonComponent
+    AngularComponentInputPersonComponent,
+    AngularComponentInputListPersonComponent
   ],
   imports: [
     BrowserModule,
