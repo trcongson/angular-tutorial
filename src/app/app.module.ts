@@ -9,6 +9,7 @@ import { AngularOverviewViewPetComponent } from './angular-overview-view-pet/ang
 import { AngularOverviewCalculatorComponent } from './angular-overview-calculator/angular-overview-calculator.component';
 import { from } from 'rxjs';
 import { AngularComponentInputNameCardComponent } from './angular-component-input-name-card/angular-component-input-name-card.component';
+import { AngularComponentInputProgressBarComponent } from './angular-component-input-progress-bar/angular-component-input-progress-bar.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { AngularComponentInputNameCardComponent } from './angular-component-inpu
     AngularOverviewFontSizeEditorComponent,
     AngularOverviewViewPetComponent,
     AngularOverviewCalculatorComponent,
-    AngularComponentInputNameCardComponent
+    AngularComponentInputNameCardComponent,
+    AngularComponentInputProgressBarComponent
   ],
   imports: [
     BrowserModule,
